@@ -12,28 +12,8 @@
   top: 0;
 }
 
-.navbar-right.client {
-  margin-top: 45.5%;
-
-  a {
-    color: $text;
-    text-decoration: none;
-    padding: 30px;
-    font-weight: 500;
-
-    &:hover {
-      text-decoration: underline;
-      color: $hover;
-    }
-  }
-}
-
-.carousel-inner {
-  width: 60%;
-}
-
 .card {
-  width: 70%;
+  width: 80%;
   margin: 2.5% auto;
   .card-img-top {
     width: 100%;
@@ -43,7 +23,7 @@
     img {
       height: auto;
       width: 100%;
-      transform: translateY(-10%);
+      transform: translateY(-12%);
     }
   }
   .card-body {
