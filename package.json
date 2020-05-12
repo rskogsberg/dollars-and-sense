@@ -1,0 +1,22 @@
+{
+  "name": "dollars-and-sense",
+  "version": "1.0.0",
+  "description": "Web home of DollarsAndSense4Nonprofits",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rskogsberg/dollars-and-sense.git"
+  },
+  "author": "Richard Skogsberg",
+  "license": "ISC",
+  "homepage": "https://github.com/rskogsberg/dollars-and-sense",
+  "bugs": {
+    "url": "https://github.com/rskogsberg/dollars-and-sense/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
