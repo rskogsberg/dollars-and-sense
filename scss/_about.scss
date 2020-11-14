@@ -1,145 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 @import 'colors';
-@import 'animations';
-
-body {
-  height: 100vh;
-}
-
-#resources-block {
-  overflow: hidden;
-}
-
-footer {
-  overflow: hidden;
-}
-
-.navigation {
-  width: 100%;
-  z-index: 1;
-}
-
-#resources-nav.navigation {
-  margin-bottom: 4em;
-  overflow: hidden;
-}
-
-.navbar-right.about, .navbar-right.client {
-
-  a {
-    color: $text;
-    text-decoration: none;
-    padding: 30px;
-    font-weight: 500;
-
-    &:hover {
-      text-decoration: underline;
-      color: $hover;
-    }
-  }
-}
-
-.about-logo {
-  height: 180px;
-}
-
-.about-block, .client-block {
-  background: linear-gradient(15deg, $Nevada 15%, $Ebb 90%, $Gray-Nurse 90%);
-  transform: skewY(-2deg);
-  transform-origin: 0;
-  width: 100%;
-  height: auto;
-}
-
-.client-block {
-  background: linear-gradient(15deg, $Nevada 15%, $Ebb 90%, $Gray-Nurse 90%);
-}
 
 .about-block {
-  background: linear-gradient(15deg, $Nevada 45%, $Ebb 90%, $Gray-Nurse 90%);
+  width: 100%;
+  height: auto;
+  background: linear-gradient(15deg, #6D6E72 55%, #F1EDEE 90%, #EEF1EF 90%);
+  transform: skewY(-2deg);
+  transform-origin: 0;
   overflow: hidden;
 
-  .header {
-    display: flex;
-    justify-content: space-around;
-    color: $hover;
-    font-weight: 700;
+  .page-content {
+    transform: skewY(2deg);
 
-    &#resources {
-      justify-content: flex-start;
-    }
-  }
-}
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      color: $Disco;
+      margin-top: 4vh;
 
-.about-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  .full-name{
-    display: flex;
-    justify-content: center;
-
-    h1 {
-      color: $text;
-      font-size: 3em;
-      margin-bottom: 0;
+      p {
+        margin-block-start: 0;
+        margin-block-end: 0.33em;
+        text-align: center;
+      }
     }
 
-    span {
-      color: $hover;
+    .about-content {
+      .text {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  
+    footer {
+      position: initial;
+      margin-top: 4vh;
+      padding-bottom: 4vh;
     }
   }
-
-}
-
-.text.about{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  h1 {
-    margin-bottom: 0;
-    color: $header;
-    font-size: 50px;
-    opacity: 0;
-    animation: fadeIn 1s;
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards;
-  }
-
-  p {
-    margin: 1.25em 0.25em 0em;
-    max-width: 75%;
-  }
-}
-
-.text.resources {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin-left: 3%;
-
-  h1 {
-    margin-top: 0.2em;
-    margin-bottom: 0;
-    color: $header;
-    font-size: 50px;
-    opacity: 0;
-    animation: fadeIn 1s;
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards;
-  }
-
-  p {
-    margin-top: 0.6em;
-  }
-
-}
-
-.signature-pic {
-  width: 40%;
-  margin: 0 auto;
 }
 
 .profile-pic {
@@ -153,80 +54,11 @@ footer {
   }
 }
 
-.services {
+.full-name {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 400px;
-  border-bottom: 20px solid $hover;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 
-.services .list-title {
-  width: 100%;
-  color: #fff;
-  background: $hover;
-  font-size: 15px;
-  font-weight: 700;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.services ul {
-  margin-top: 0;
-  position: relative;
-  background: #fff;
-  width: 100%;
-  padding-inline-start: 0px;
-  margin-block-end: 0;
-}
-
-.services ul li {
-  list-style: none;
-  padding: 10px;
-  background: #fff;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s;
-}
-
-.services ul {
-
-  &:hover li{
-    opacity: 0.2;
-
+  span {
+    color: $span;
   }
-}
-
-.services ul li:hover {
-  transform: scale(1.1);
-  z-index: 100;
-  background: $hover;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  color: #fff;
-  opacity: 1;
-}
-
-.services ul li span {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  background: $hover;
-  color: #fff;
-  display: inline-block;
-  border-radius: 50%;
-  margin: auto 10px;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px;
-}
-
-.services ul li:hover span {
-  background: #fff;
-  color: $hover;
 }

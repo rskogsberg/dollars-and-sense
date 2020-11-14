@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import 'colors';
+
+// p {
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+.client-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(15deg, $Nevada 15%, $Ebb 90%, $Gray-Nurse 90%);
+  transform: skewY(-2deg);
+  transform-origin: 0;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+
+  .page-content {
+    transform: skewY(2deg);
+    height: 90%;
+    width: 100%;
+
+    footer {
+      bottom: 0px;
+    }
+  }
+}
+
+.carousel-item>.card {
+  height: 80vh;
+  width: 80vw;
+  max-width: 900px;
+  margin: 15px auto;
+  .card-img-top {
+    height: 75%;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: 50% 25%;
+    }
+  }
+  .card-body {
+    height: 25%;
+    padding: 0.75rem;
+
+    .card-title {
+      height: 25%;
+      max-height: 25%;
+      margin-bottom: 5px;
+    }
+
+    .card-text {
+      height: 75%;
+      max-height: 75%;
+      font-size: 0.75rem;
+      overflow: auto;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;
+    }
+
+    .card-text::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+a.carousel-control-next, a.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-fade>.carousel-inner {
+  .carousel-item.active{
+    transform: none;
+    backface-visibility: inherit;
+  }
+}
