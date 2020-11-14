@@ -160,6 +160,9 @@ footer .navigation .navbar-right a:hover {
   .home .block {
     overflow: hidden;
   }
+  footer {
+    margin-top: 4vh;
+  }
   footer .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
