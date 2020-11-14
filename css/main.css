@@ -157,8 +157,8 @@ footer .navigation .navbar-right a:hover {
   .img-wrapper {
     width: 90vw;
   }
-  footer {
-    padding-top: 15px;
+  .home .block {
+    overflow: hidden;
   }
   footer .navigation {
     display: -webkit-box;
