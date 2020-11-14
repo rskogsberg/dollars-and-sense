@@ -256,6 +256,7 @@ footer .navigation .navbar-right a:hover {
   }
   .img-wrapper {
     width: 90vw;
+    max-width: 800px;
   }
   footer .navigation {
     display: -webkit-box;
@@ -390,7 +391,7 @@ footer .navigation .navbar-right a:hover {
 .carousel-item > .card {
   height: 80vh;
   width: 80vw;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 15px auto;
 }
 
