@@ -229,7 +229,7 @@ footer .navigation .navbar-right a:hover {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1170px) {
+@media screen and (min-width: 1025px) {
   .social-media {
     display: -webkit-box;
     display: -ms-flexbox;
