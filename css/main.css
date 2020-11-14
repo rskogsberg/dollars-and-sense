@@ -42,7 +42,6 @@ body.home .block .page-content {
 }
 
 .home-content {
-  padding-top: 6vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,10 +237,11 @@ footer .navigation .navbar-right a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 4vh;
   }
   .social-media a {
-    font-size: 2.5vh;
     padding: 5px;
+    font-size: 2vh;
   }
   .home-content {
     -webkit-box-orient: vertical;
@@ -255,10 +255,7 @@ footer .navigation .navbar-right a:hover {
     margin-left: 0;
   }
   .img-wrapper {
-    width: 70vw;
-  }
-  footer {
-    bottom: 45px;
+    width: 90vw;
   }
   footer .navigation {
     display: -webkit-box;
