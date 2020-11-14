@@ -161,6 +161,7 @@ footer .navigation .navbar-right a:hover {
     overflow: hidden;
   }
   footer {
+    bottom: initial;
     margin-top: 4vh;
   }
   footer .navigation {
