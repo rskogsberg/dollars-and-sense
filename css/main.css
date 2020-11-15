@@ -25,7 +25,7 @@ body.home {
 
 body.home .block {
   width: 100%;
-  height: 100%;
+  height: inherit;
   background: linear-gradient(-15deg, #A22065 15%, #F1EDEE 90%, #EEF1EF 90%);
   -webkit-transform: skewY(-2deg);
           transform: skewY(-2deg);
