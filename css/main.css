@@ -100,13 +100,6 @@ footer {
   margin: auto;
 }
 
-.block .page-content footer {
-  position: initial;
-  margin-top: 4vh;
-  padding-bottom: 4vh;
-}
-}
-
 footer .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,10 +160,11 @@ footer .navigation .navbar-right a:hover {
   .home .block {
     overflow: hidden;
   }
-  footer {
-    bottom: initial;
-    margin-top: 4vh;
-  }
+.block .page-content footer {
+  position: initial;
+  margin-top: 4vh;
+  padding-bottom: 4vh;
+}
   footer .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
