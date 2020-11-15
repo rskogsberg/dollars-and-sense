@@ -19,11 +19,7 @@ body {
   color: #F1EDEE;
 }
 
-body.home {
-  overflow: hidden;
-}
-
-body.home .block {
+.block {
   width: 100%;
   height: inherit;
   background: linear-gradient(-15deg, #A22065 15%, #F1EDEE 90%, #EEF1EF 90%);
