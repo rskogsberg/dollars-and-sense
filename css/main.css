@@ -141,6 +141,9 @@ footer .navigation .navbar-right a:hover {
   .social-media a {
     padding: 5px;
   }
+  .block {
+    height: 100%;
+  }
   .home-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
