@@ -201,6 +201,9 @@ footer .navigation .navbar-right a:hover {
     padding: 5px;
     font-size: 2vh;
   }
+  .block {
+   height: 100vh; 
+  }
   .home-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -250,6 +253,9 @@ footer .navigation .navbar-right a:hover {
   .social-media a {
     padding: 5px;
     font-size: 2vh;
+  }
+  .block {
+   height: 100vh; 
   }
   .home-content {
     -webkit-box-orient: vertical;
