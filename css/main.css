@@ -202,7 +202,8 @@ footer .navigation .navbar-right a:hover {
     font-size: 2vh;
   }
   .block {
-   height: 100vh; 
+   height: 100vh;
+   overflow: hidden;
   }
   .home-content {
     -webkit-box-orient: vertical;
@@ -255,7 +256,8 @@ footer .navigation .navbar-right a:hover {
     font-size: 2vh;
   }
   .block {
-   height: 100vh; 
+    height: 100vh;
+    overflow: hidden;
   }
   .home-content {
     -webkit-box-orient: vertical;
