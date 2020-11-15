@@ -142,7 +142,7 @@ footer .navigation .navbar-right a:hover {
     padding: 5px;
   }
   .block {
-    height: 100%;
+    height: auto;
   }
   .home-content {
     -webkit-box-orient: vertical;
