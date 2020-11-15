@@ -164,8 +164,10 @@ footer .navigation .navbar-right a:hover {
   .home .block {
     overflow: hidden;
   }
+.block .page-content {
+  min-height: 100vh;  
+}
 .block .page-content footer {
-  position: initial;
   margin-top: 4vh;
   padding-bottom: 4vh;
 }
